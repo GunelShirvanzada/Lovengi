@@ -1,0 +1,59 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.contact-form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    background: #fde4e4;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #2122454c;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #df2020;
+    padding: 5px 25px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #df2020e5;
+}
+
+#message{
+    resize: none;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.1);
+}
+.contact_input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fde4e4 inset !important; /* Değişmeyen bir renk belirtin */
+}

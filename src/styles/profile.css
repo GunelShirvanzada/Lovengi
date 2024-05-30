@@ -1,0 +1,140 @@
+.profil-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-row {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    background: #fde4e4;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.profile-title {
+    padding: 0 5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #212245;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #2122454c;
+}
+
+.profile-image,
+.header-profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.header-profile-image {
+    width: 38px;
+    height: 38px;
+    border: 2px solid #fde4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+    margin-left: 14px;
+
+}
+
+.profile-initial {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #847878;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.profile-details {
+    font-size: 1.2rem;
+    width: 100%;
+    background: #ffffffe5;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.strongTitle {
+    color: #212245;
+}
+
+.basliq {
+    color: #252525d2;
+}
+
+.profilAllBtn {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-profile-btn {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #212245 !important;
+}
+
+.modal_butonlari {
+    background-color: #212245 !important;
+}
+
+body.modal-open {
+    padding-right: 0 !important;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+body.modal-open {
+    padding-right: 0;
+}
+
+.alert-success-custom {
+    color: #155724;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alert-danger-custom {
+    color: #721c24;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.yaddasaxlaParol {
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .profiltop {
+        text-align: center;
+    }
+}

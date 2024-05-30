@@ -1,0 +1,177 @@
+.product__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.product__item {
+  border: 1px solid #fde4e4;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  height: 300px;
+  max-width: 300px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.product__img {
+  margin-bottom: 20px;
+  transition: 0.4s;
+}
+
+.product__img:hover {
+  transform: scale(1.2);
+}
+
+.product__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.product_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.product__content h5 a {
+  color: #212245;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.product__price {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #df2020;
+}
+
+.addTOCart__btn {
+  border: none;
+  padding: 7px 14px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  /* width: 130px; */
+}
+
+.addTOCart__btn:hover {
+  background-color: #df2020e5;
+}
+
+.product__item {
+  position: relative;
+}
+
+.wishlist__icon {
+  position: absolute;
+  font-size: 18px;
+  top: 20px;
+  right: 26px;
+  z-index: 1;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 3px 8px; 
+  box-shadow: 0 0 4px rgba(41, 41, 41, 0.2);
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+}
+
+.wishlist__icon:hover {
+  color: #b71c1c; /* Hover durumunda koyu kırmızı yapar */
+}
+
+.fa-heart.fa-solid {
+  color: #df2020; /* Kalp dolu olduğunda kırmızı */
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .wishlist__icon {
+    font-size: 20px;
+    top: 18px;
+    right: 24px;
+  }
+
+  .product__item {
+    padding: 20px;
+    height: 240px;
+  }
+
+  .product__content h5 a {
+    font-size: 0.8rem;
+  }
+
+  .addTOCart__btn {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .product__price {
+    font-size: 17px;
+  }
+
+  .product_text {
+    gap: 22px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .wishlist__icon {
+    font-size: 15px;
+    top: 16px;
+    right: 22px;
+  }
+
+  .product__item {
+    padding: 20px;
+    height: 240px;
+  }
+
+  .product__content h5 a {
+    font-size: 0.8rem;
+  }
+
+  .addTOCart__btn {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .product__price {
+    font-size: 17px;
+  }
+
+  .product_text {
+    gap: 22px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .product__item {
+    height: 260px;
+  }
+
+  .addTOCart__btn {
+    padding: 5px 10px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .product__item {
+    height: 260px;
+  }
+
+  .addTOCart__btn {
+    padding: 5px;
+    font-size: 0.8rem;
+    width: 110px;
+  }
+}

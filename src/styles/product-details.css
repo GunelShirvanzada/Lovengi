@@ -1,0 +1,200 @@
+.single__product-content {
+  padding-left: 50px;
+}
+
+.product__price {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  margin-bottom: 0;
+}
+.product__price span {
+  font-size: 2rem;
+}
+
+.category {
+  font-weight: 600;
+  color: #212245;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-top: 10px;
+}
+
+.category span {
+  padding: 5px 10px;
+  background: #fde4e4;
+  color: #212245;
+  border-radius: 5px;
+}
+
+.tabs {
+  border-bottom: 1px solid #fde4e4;
+}
+
+.tabs h6 {
+  cursor: pointer;
+}
+
+.tab__content {
+  padding: 30px 0px;
+}
+
+.tab__content p {
+  line-height: 30px;
+  color: #212245b6;
+}
+
+.tab__active {
+  color: #df2020;
+}
+
+.tab__form{
+  padding-top: 20px;
+}
+
+/* ! */
+.review {
+  margin-bottom: 12px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow : 0 0 4px #d2090914;
+}
+
+.user__name {
+  font-weight: bold;
+  color: #212245b6;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.feedback__text {
+  color: #212245b6;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.user__email {
+  font-size: 0.8rem;
+}
+/* ! */
+
+.form {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  background: #fde4e4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form__group {
+  margin-bottom: 30px;
+}
+.form__group input,
+.form__group textarea {
+  width: 100%;
+  background: transparent;
+  padding: 7px 20px;
+  border: none;
+  border-bottom: 1px solid #2122454c;
+}
+
+.form__group input:focus,
+.form__group textarea:focus {
+  outline: none;
+}
+
+.img__item {
+  cursor: pointer;
+}
+.related__Product-title {
+  font-size: 1.4rem;
+}
+
+.registerstyle{
+ color: #212245;
+ font-weight: 600;
+ transition: all 0.5;
+}
+.registerstyle:hover{
+  color: #df2020;
+}
+
+.register_input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fde4e4 inset !important; /* Değişmeyen bir renk belirtin */
+}
+
+/* ---------------------- */
+
+@media (max-width: 768px) {
+  .single__product-content {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .product__images {
+    display: none;
+  }
+
+  .product__main-img {
+    text-align: center;
+    margin-bottom: 20px;
+    flex-basis: 100%;
+  }
+
+  .addTOCart__btn {
+    text-align: center;
+    width: 100%;
+  }
+
+  .tab__content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .review {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .review p {
+    margin: 0;
+    flex: 1;
+  }
+
+  .form {
+    flex-basis: 100%; /* Formu tam genişlikte yap */
+    margin-top: 30px;
+    background: #fde4e4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .form__group {
+    margin-bottom: 20px;
+  }
+
+  .form__group input,
+  .form__group textarea {
+    width: 100%;
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #2122454c;
+  }
+
+  .form__group input:focus,
+  .form__group textarea:focus {
+    outline: none;
+  }
+
+  .related__Product-title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+}
+
